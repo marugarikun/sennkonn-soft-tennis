@@ -1,0 +1,150 @@
+body {
+    font-size: 91%;
+    color: rgb(0, 0, 0);
+    background-image: url(img/001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background-position: center top;
+}
+
+
+.bb-wrapper {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.bb-content {
+    width: 950px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+#header {
+    position: relative;
+    width: 950px;
+    height: 220px;
+    line-height: 0;
+    margin: 0 auto 0;
+    background-image: url(img/002.png);
+}
+
+#header h1 {
+    position: absolute;
+    right: 50px;
+    top: 35px;
+}
+
+#main {
+    width: 830px;
+    margin: 0 auto;
+    padding: 60px 60px;
+    clear: both;
+    min-height: 600px;
+}
+
+#main h1 {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    background-size: 31px;
+    padding: 6px 13px;
+    margin: 20px 0;
+    width: 830px;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.list {
+    width: 830px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    
+}
+.buttons2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 830px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    
+}
+
+.buttons:hover {
+    opacity: 0.7;
+}
+
+
+
+.buttons:not(first-of-type) {
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse!important;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    font-weight: bold;
+    border-color: inherit;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.aaa {
+    color: blue;
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .bb-wrapper {
+        width: 760px;
+        margin: 0 auto;
+    }
+}
